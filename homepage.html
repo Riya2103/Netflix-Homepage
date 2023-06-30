@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero-section {
+            background-color: #000;
+            color: #fff;
+            padding: 80px;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .cta-button {
+            background-color: #e50914;
+            color: #fff;
+            font-size: 20px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .main-content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .main-content h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .main-content .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+
+        .main-content .grid-item {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .main-content .grid-item img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .main-content .grid-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .main-content .grid-item p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+        <h1>Welcome to Our Streaming Service</h1>
+        <p>Watch your favorite movies and TV shows anytime, anywhere.</p>
+        <button class="cta-button">Get Started</button>
+    </div>
+
+    <div class="main-content">
+        <h2>Popular Movies and TV Shows</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="movie1.jpg" alt="Movie 1">
+                <h3>Movie 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="grid-item">
+                <img src="movie2.jpg" alt="Movie 2">
+                <h3>Movie 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="grid-item">
+                <img src="movie3.jpg" alt="Movie 3">
+                <h3>Movie 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="grid-item">
+                <img src="movie4.jpg" alt="Movie 4">
+                <h3>Movie 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
